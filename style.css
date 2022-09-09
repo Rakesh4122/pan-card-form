@@ -1,0 +1,173 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.IMP::before {
+  content: "*";
+  color: RED;
+}
+
+body {
+  height: 100vh;
+  /* background: rgb(20, 34, 236); */
+}
+
+.container {
+  display: block;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgb(248, 233, 205);
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(219, 30, 30);
+  padding: 8px 0px;
+}
+
+#header h4 {
+  text-align: center;
+  color: rgb(244, 246, 247);
+}
+
+#header p {
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(244, 246, 247);
+}
+
+table {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border: 1px solid black;
+  padding: 6px;
+}
+
+.containw {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: revert;
+  align-items: center;
+  width: auto;
+
+}
+
+/* utility area */
+/* this for adding margin in radio button  */
+.select {
+  outline: none;
+  margin: 0px 6px;
+}
+
+/* this for adding left margin in input text */
+.space {
+  display: inline-block;
+  margin-left: 300px;
+}
+
+strong {
+  outline: none;
+  border: none;
+}
+
+/* this for making title input block element  */
+.block {
+
+  display: block;
+  outline: none;
+}
+
+/* for making title name container into flex */
+.flex {
+  align-items: left;
+  display: flex;
+  justify-items: center;
+}
+
+/* for making title name container into flex */
+.title {
+  margin-left: 114px;
+}
+
+/* dding left margin in date input */
+#date {
+  margin-left: 200px;
+}
+
+@media screen and (max-width:948px) {
+  .flex {
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+  }
+
+
+  .title {
+    margin: 0px 6px;
+  }
+
+  .space {
+    margin: auto;
+  }
+}
+#btn{
+  padding: 10px 16px;
+  background-color: red;
+  float: right;
+  margin-right: 60px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media screen and (max-width:674px) {
+
+  .container {
+    width: 100%;
+
+  }
+
+  #header {
+    width: 100vw;
+  }
+  #date {
+    margin: auto;
+  }
+
+  #btn {
+    border-radius: 6px;
+    padding: 4px;
+    margin: 0px 0px 6px 0px;
+  }
+}
+
+@media screen and (max-width:370px) {
+
+  #header {
+
+    position: absolute;
+    width: 410px;
+    z-index: 1;
+  }
+
+  .container {
+    position: absolute;
+    width: 410px;
+    top: 73px;
+  }
+
+}
