@@ -11,7 +11,7 @@
 
 body {
   height: 100vh;
-  /* background: rgb(20, 34, 236); */
+  /* background: rgb(20, 34, 236); */ 
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
   margin: auto;
   width: 100%;
   box-sizing: border-box;
-  background: rgb(248, 233, 205);
+  background: rgb(248, 233, 205); 
 }
 
 #header {
